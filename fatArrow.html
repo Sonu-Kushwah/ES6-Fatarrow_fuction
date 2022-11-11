@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fat Arrow Function in ES6</title>
+</head>
+<body>
+    <h3>Fat Arrow Function in ES6</h3>
+    <script>
+        //es5
+    
+        // function show(){
+        //     let a=5;
+        //     let b=10;
+        //     return a+b;
+        // }
+        // console.log(show());
+
+        //es6
+        // const sum=()=>{
+        //     let a=5;
+        //     let b=10;
+        //     return a+b;
+        // }
+        // console.log(sum());
+        
+        
+        //sigle line use without return and currly braket
+        let a=5;
+        let b=3;
+        const mul=()=>a*b
+        console.log(mul());
+    </script>
+</body>
+</html>
